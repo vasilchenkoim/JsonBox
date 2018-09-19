@@ -1,0 +1,15 @@
+{
+  "vendor": "ООО \"Люксофт\"",
+  "system": "Axioma", 
+  "supplyPath": ["/axioma/filename.7z; /axioma/filename_2.7z”],
+  “issues”: [“BR-12345; TFS-98765; TST-15624; ALM-45613”],
+  “happyPath”: “K3; K10; PreProd; Prod”,
+  "shouldTestUI":"true | false",
+  "shouldTestIntegration":"true | false",
+  "regression": {
+          "type": "full | none | custom",
+          "businessProcess": ["process_name_1; process_name_2; new:new_process_1; new:new_process_2"]
+  },
+  “autoDeployOnProd”: “true | false”,
+  “desc”: “Исправлено много багов”
+}
